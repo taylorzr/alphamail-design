@@ -6,7 +6,7 @@
 
 body{
   font-family: "Open Sans", sans-serif;
-  min-width: 300px;
+  min-width: 600px;
 }
 
 a {
@@ -60,7 +60,7 @@ header li {
   padding: 10px;
 }
 
-main {
+.main-wrapper {
   overflow: hidden;
   width: 100%;
   min-height: 400px;
