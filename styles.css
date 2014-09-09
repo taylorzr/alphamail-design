@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer, .content, .sidebar {
+  padding: 10px;
+}
+
+header {
+  background-color: blue;
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.sidebar, .content {
+  padding-bottom: 66666px;
+  margin-bottom: -66661px;
+}
+
+.content-wrapper {
+  float: left;
+  margin-left: -150px;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: red;
+  float: left;
+  width: 150px;
+}
+
+.content {
+  background-color: yellow;
+  margin-left: 150px;
+}
+
+footer {
+  clear: both;
+  background: gray;
+}
