@@ -5,8 +5,8 @@
 }
 
 body{
-  font-family: "Helvetica-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  min-width: 500px;
+  font-family: "Open Sans", sans-serif;
+  min-width: 300px;
 }
 
 a {
@@ -19,17 +19,21 @@ a:hover {
   border-bottom: 1px solid #FFF;
 }
 
-header, footer, .content, .sidebar {
+footer, .content, .sidebar {
   padding: 10px;
 }
 
 header {
   background-color: #222;
   color: #AAA;
-  padding: 10px;
+  padding: 10px 20px;
   width: 100%;
   height: 100px;
   line-height: 80px;
+}
+
+header h1 a:hover {
+  border-bottom: none
 }
 
 footer {
@@ -59,6 +63,11 @@ header li {
 main {
   overflow: hidden;
   width: 100%;
+  min-height: 400px;
+}
+
+.fa {
+  margin-right: 5px;
 }
 
 .light {
@@ -99,12 +108,25 @@ main {
 }
 
 .content th {
+  text-align: left;
   background-color: #FFF;
+  color: #BBB;
+  font-weight: 100;
+  text-align: justify;
   padding: 5px 10px;
+}
+
+.content th a:hover {
+  color: #444;
 }
 
 .content td {
   background-color: #DDD;
   border: 2px solid #FFF;
   padding: 10px;
+}
+
+.content tr:hover td {
+  background-color: #FFA;
+  font-weight: 600;
 }
